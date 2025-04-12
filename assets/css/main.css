@@ -59,13 +59,30 @@
     margin-right: auto; /* mx-auto */
 }
 
-.text{
-    align-items: center;
-    font-size: 1.6rem;
-    display: block;
-    margin-top: 20px;
+.container-section {
+    width: 1161px; /* 4xl */
+    margin: 0 auto;
+    padding: 1rem;
 }
 
+.container-section .title {
+    font-size: 32px; /* text-3xl */
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.container-section .subtitle {
+    font-size: 16px; /* text-xl */
+    font-weight: 600; /* semi-bold */
+    margin-bottom: 0.5rem;
+}
+
+.container-section .about-text {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    font-size: 16px; /* text-xl */
+
+}
 
 /* footer */
 .footer {
